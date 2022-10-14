@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #wrapper{
+            width: 960px;
+            height: 150px;
+            background: lightgrey;
+            margin: 0 auto;
+            padding-top: 50px;
+            clear: both;
+        }
+        h2{
+            text-align: center;
+        }
+        #content{
+            width: 960px;
+            background: coral;
+            padding: 5px;
+            overflow: auto;
+            box-sizing: border-box;
+        }
+        #leftbox{
+            width: 30%;
+            height: 200px;
+            background: skyblue;
+            float: left;
+        }
+        #rightbox{
+            width: 70%;
+            height: 200px;
+            background: darkgreen;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h2>welcome to html</h2>
+        </div>
+        <div id="content">
+            <div id="leftbox">
+                <h2>leftbox</h2>
+            </div>
+            <div id="rightbox">
+                <h2 style="color: red;">rightbox</h2>
+            </div>
+        </div>
+        <h2 style="color: red;background: blue; clear: both;">hello from footer</h2>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
